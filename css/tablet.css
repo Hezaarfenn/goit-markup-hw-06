@@ -75,10 +75,21 @@
     }
 
     /* FOOTER */    
+    .footer {
+        padding: 0;
+    }
+
     .footer-container {
+        padding: 96px 108px;
         width: 100%;
-        gap: 0px;
         flex-wrap: wrap;        
     }
+
+    .footer-logo-text-social-media-container {
+        display: flex;
+        gap: 24px;
+    }
+
+
         
 }
