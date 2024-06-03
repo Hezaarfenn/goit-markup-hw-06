@@ -87,7 +87,16 @@
 
     .footer-logo-text-social-media-container {
         display: flex;
+        margin-bottom: 72px;
         gap: 24px;
+    }
+
+    .footer-logo-text-container {
+        margin-right: 0;
+    }
+
+    .footer-form-container {
+        padding-left: 0;
     }
 
 
