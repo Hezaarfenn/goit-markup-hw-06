@@ -15,7 +15,6 @@ body {
 
 img {
     display: block;
-    width: 100%;
 }
 
 ul {
@@ -90,7 +89,7 @@ a {
     color: #404bbf;    
 }
 
-.header-list-li .link::after {
+.header-list-li .link-studio::after {
     content: "";
     width: 100%;
     position: absolute;
@@ -217,9 +216,10 @@ a {
     gap: 24px;
 }
 
-.second-list-li {
+/* ödev-6 tablet görünümü için devre dışı bırakıldı */
+/* .second-list-li {
     width: calc((100% - 72px) / 4)
-}
+} */
 
 .second-part-svg-container {
     display: flex;
