@@ -14,6 +14,10 @@
         width: 100%;        
     }
 
+    .hamburger-menu-button {
+        display: block;
+    }
+
     /* SECOND PART */
    
     .second-list-ul {
@@ -63,19 +67,38 @@
     /* FOOTER */
     .footer-container {
         padding: 96px 16px;
+        justify-content: center;
     }
 
     .footer-logo-text-social-media-container {
         flex-direction: column;
     }
 
+    .footer-logo-text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer-logo {
+        margin-right: 0;
+    }
+
+    .footer-social-media-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 72px;
+    }
+
     .footer-form-container {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .footer-mail-form {
         flex-direction: column;
-
-
+        align-items: center;
+    }
 }

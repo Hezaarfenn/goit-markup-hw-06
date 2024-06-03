@@ -135,6 +135,12 @@ a {
     gap: 40px;
 }
 
+.hamburger-menu-button {
+    display: none;
+    background: none;
+    border: none;
+}
+
 /* FIRST PART */
 .first-part {
     background-color: #2e2f42;
