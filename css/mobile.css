@@ -121,8 +121,34 @@
         font-weight: 700;
         font-size: 36px;
         line-height: 40px;
-        letter-spacing: 0.02em;        
+        letter-spacing: 0.02em;
     }
+
+    .hamburger-menu-link {
+        color: #2e2f42;
+    }
+
+    .hamburger-menu-address-li {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        font-style: normal;
+    }
+
+    .hamburger-menu-address-link {
+        color: #434455;
+    }
+    
+    .hamburger-menu-social-media-button:hover,
+    .hamburger-menu-social-media-button:focus {
+        background-color: #31d0aa;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    
+
+   
 
     
 
