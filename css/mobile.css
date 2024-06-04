@@ -107,14 +107,58 @@
     }
 
     /* HAMBURGER MENU */
-    .hamburger-menu-button {
-        display: block;
+    .hamburger-menu-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+        display: none;
     }
 
-    .hamburger-menu-icon-exit:hover,
-    .hamburger-menu-icon-exit:focus {
+    .hamburger-menu-button {    
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: 24px;
+        right: 24px;
+        cursor: pointer;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+        background-color: #e7e9fc;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 0;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .hamburger-menu-button:hover,
+    .hamburger-menu-button:focus {
         background-color: #404bbf;
         border: none;
+    }
+
+    .hamburger-menu-container .hamburger-menu-icon-exit:hover,
+    .hamburger-menu-container .hamburger-menu-icon-exit:focus {
+        fill: #ffffff
+    }
+
+    .hamburger-menu-link-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 72px 16px;
+    }
+
+    .hamburger-menu-nav-ul {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 168px;
     }
 
     .hamburger-menu-nav-li {
@@ -126,6 +170,18 @@
 
     .hamburger-menu-link {
         color: #2e2f42;
+    }
+
+    .hamburger-menu-nav-ul .link-studio:hover,
+    .hamburger-menu-nav-ul .link-studio:focus {
+        color: #404bbf;
+    }
+        
+    .hamburger-menu-address-ul {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-bottom: 48px;
     }
 
     .hamburger-menu-address-li {
@@ -140,17 +196,20 @@
         color: #434455;
     }
     
+    .hamburger-menu-address-link:hover,
+    .hamburger-menu-address-link:focus {
+        color: #404bbf;
+    }
+
+    .hamburger-menu-social-media-ul {
+        display: flex;
+        gap: 40px;
+    }
+    
     .hamburger-menu-social-media-button:hover,
     .hamburger-menu-social-media-button:focus {
         background-color: #31d0aa;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-
-    
-
-   
-
-    
-
 
 }
