@@ -16,6 +16,11 @@
 
 
     /* SECOND PART */   
+    .second-part {
+        display: grid;
+        place-content: center;
+    }
+
     .second-list-ul {
         margin: 0;
         padding: 0;
@@ -43,7 +48,7 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-
+    
 
     /* FOURTH PART */
     .fourth-part-container {
@@ -55,10 +60,6 @@
     .fourth-list-ul {
         width: 100%;
         justify-content: center;
-    }
-
-    .fourth-list {
-        width: 100%;
     }
 
 

@@ -300,6 +300,10 @@ a {
     text-align: center;
 }
 
+.social-media-button-ul {
+    justify-content: center;
+}
+
 .social-media-button-li {
     display: flex;
     justify-content: center;
@@ -422,7 +426,11 @@ a {
 .footer-container {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
+}
+
+.footer-logo-text-social-media-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-logo-text-container {
@@ -722,6 +730,10 @@ a {
 }
 
 /* HAMBURGER MENU */
+.hamburger-menu-container {
+    display: none;
+}
+
 .hamburger-menu-button {
     display: none;
 }
