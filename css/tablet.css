@@ -62,7 +62,7 @@
     /* FOURTH PART */
 
     .fourth-part {
-        padding: 96px 12px
+        padding: 96px 12px; 
     }
 
     .fourth-part-container {
@@ -72,6 +72,7 @@
 
     .fourth-list-ul {
         width: 100%;
+        justify-content: center;
     }
 
     /* FOOTER */    
